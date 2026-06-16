@@ -1,12 +1,12 @@
 public class User {
     private int age;
-    private String readingPerferences;
+    private String readingPreferences;
     private String readingDuration;
     private String name;
 
-    public User(int age, String readingPerferences, String readingDuration, String name) {
+    public User(int age, String readingPreferences, String readingDuration, String name) {
         this.age = age;
-        this.readingPerferences = readingPerferences;
+        this.readingPreferences = readingPreferences;
         this.readingDuration = readingDuration;
         this.name = name;
     }
@@ -26,12 +26,12 @@ public class User {
         this.age = age;
     }
 
-    public String getReadingPerferences() {
-        return readingPerferences;
+    public String getReadingPreferences() {
+        return readingPreferences;
     }
 
-    public void setReadingPerferences(String readingPerferences) {
-        this.readingPerferences = readingPerferences;
+    public void setReadingPreferences(String readingPreferences) {
+        this.readingPreferences = readingPreferences;
     }
 
     public String getReadingDuration() {

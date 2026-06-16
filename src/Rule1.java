@@ -2,7 +2,7 @@ public class Rule1 implements RecommendRule{
     @Override
     public boolean matches(User user,Book book){
         return !user.isAdult()
-                && user.getReadingPerferences().equals("科幻")
+                && user.getReadingPreferences().equals("科幻")
                 && user.getReadingDuration().equals("长时长")
                 && book.getDifficulty().equals("中等难度");
     }
